@@ -1,0 +1,55 @@
+.container {
+  padding: 2% 10%;
+}
+
+/* Structure */
+
+.example-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  max-height: 500px;
+  overflow: auto;
+}
+
+.example-header {
+  min-height: 64px;
+  padding: 8px 24px 0;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.mat-header-cell.mat-sort-header-sorted {
+  color: black;
+}
+
+.cdk-column-action {
+  width: 11%;
+}
+.cdk-column-slno {
+  width: 1%;
+}
+.cdk-column-currentStock{
+  width: 5%
+}
+.cdk-column-minStock{
+  width: 5%
+}
+.cdk-column-openingStock{
+  width: 5%
+}
+.cdk-column-tax{
+  width: 5%
+}
+.cdk-column-brandName{
+  width: 15%
+}
+.cdk-column-groupName{
+  width: 15%
+}
+.cdk-column-name{
+  width: 30%
+}
